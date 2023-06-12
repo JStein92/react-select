@@ -1,9 +1,9 @@
 {
-  "name": "react-select",
-  "version": "5.7.3",
+  "name": "@jsteinotr/react-select",
+  "version": "5.7.4",
   "description": "A Select control built with and for ReactJS",
-  "main": "dist/react-select.cjs.js",
-  "module": "dist/react-select.esm.js",
+  "main": "dist/jsteinotr-react-select.cjs.js",
+  "module": "dist/jsteinotr-react-select.esm.js",
   "types": "dist/react-select.cjs.d.ts",
   "sideEffects": false,
   "author": "Jed Watson",
@@ -62,34 +62,34 @@
   },
   "exports": {
     ".": {
-      "module": "./dist/react-select.esm.js",
-      "import": "./dist/react-select.cjs.mjs",
-      "default": "./dist/react-select.cjs.js"
+      "module": "./dist/jsteinotr-react-select.esm.js",
+      "import": "./dist/jsteinotr-react-select.cjs.mjs",
+      "default": "./dist/jsteinotr-react-select.cjs.js"
     },
     "./base": {
-      "module": "./base/dist/react-select-base.esm.js",
-      "import": "./base/dist/react-select-base.cjs.mjs",
-      "default": "./base/dist/react-select-base.cjs.js"
+      "module": "./base/dist/jsteinotr-react-select-base.esm.js",
+      "import": "./base/dist/jsteinotr-react-select-base.cjs.mjs",
+      "default": "./base/dist/jsteinotr-react-select-base.cjs.js"
     },
     "./async": {
-      "module": "./async/dist/react-select-async.esm.js",
-      "import": "./async/dist/react-select-async.cjs.mjs",
-      "default": "./async/dist/react-select-async.cjs.js"
+      "module": "./async/dist/jsteinotr-react-select-async.esm.js",
+      "import": "./async/dist/jsteinotr-react-select-async.cjs.mjs",
+      "default": "./async/dist/jsteinotr-react-select-async.cjs.js"
     },
     "./animated": {
-      "module": "./animated/dist/react-select-animated.esm.js",
-      "import": "./animated/dist/react-select-animated.cjs.mjs",
-      "default": "./animated/dist/react-select-animated.cjs.js"
+      "module": "./animated/dist/jsteinotr-react-select-animated.esm.js",
+      "import": "./animated/dist/jsteinotr-react-select-animated.cjs.mjs",
+      "default": "./animated/dist/jsteinotr-react-select-animated.cjs.js"
     },
     "./creatable": {
-      "module": "./creatable/dist/react-select-creatable.esm.js",
-      "import": "./creatable/dist/react-select-creatable.cjs.mjs",
-      "default": "./creatable/dist/react-select-creatable.cjs.js"
+      "module": "./creatable/dist/jsteinotr-react-select-creatable.esm.js",
+      "import": "./creatable/dist/jsteinotr-react-select-creatable.cjs.mjs",
+      "default": "./creatable/dist/jsteinotr-react-select-creatable.cjs.js"
     },
     "./async-creatable": {
-      "module": "./async-creatable/dist/react-select-async-creatable.esm.js",
-      "import": "./async-creatable/dist/react-select-async-creatable.cjs.mjs",
-      "default": "./async-creatable/dist/react-select-async-creatable.cjs.js"
+      "module": "./async-creatable/dist/jsteinotr-react-select-async-creatable.esm.js",
+      "import": "./async-creatable/dist/jsteinotr-react-select-async-creatable.cjs.mjs",
+      "default": "./async-creatable/dist/jsteinotr-react-select-async-creatable.cjs.js"
     },
     "./package.json": "./package.json"
   }

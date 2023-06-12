@@ -1,5 +1,5 @@
 {
-  "main": "dist/react-select-async-creatable.cjs.js",
-  "module": "dist/react-select-async-creatable.esm.js",
+  "main": "dist/jsteinotr-react-select-async-creatable.cjs.js",
+  "module": "dist/jsteinotr-react-select-async-creatable.esm.js",
   "types": "dist/react-select-async-creatable.cjs.d.ts"
 }
