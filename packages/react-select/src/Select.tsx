@@ -1357,22 +1357,17 @@ export default class Select<
 
     this.userIsDragging = deltaX > moveThreshold || deltaY > moveThreshold;
   };
-  onTouchEnd = (event: TouchEvent) => {
-    if (this.userIsDragging) return;
-
-    // close the menu if the user taps outside
+  onTouchEnd = (event) => {
+    if (this.userIsDragging) return; // close the menu if the user taps outside
     // we're checking on event.target here instead of event.currentTarget, because we want to assert information
     // on events on child elements, not the document (which we've attached this handler to).
-    if (
-      this.controlRef &&
-      !this.controlRef.contains(event.target as Node) &&
-      this.menuListRef &&
-      !this.menuListRef.contains(event.target as Node)
-    ) {
-      this.blurInput();
-    }
 
-    // reset move vars
+    if ((this.controlRef && !this.controlRef.contains(event.target) && this.menuListRef && !this.menuListRef.contains(event.target)) &&
+    (this.controlRef && !this.controlRef.contains(event.composedPath()[0]) && this.menuListRef && !this.menuListRef.contains(event.composedPath()[0]))) {
+      this.blurInput();
+    } // reset move vars
+
+
     this.initialTouchX = 0;
     this.initialTouchY = 0;
   };
